@@ -1,4 +1,5 @@
 import Accomplishments from '../components/Accomplishments/Accomplishments';
+import Contact from '../components/Contact/Contact';
 
 import Hero from '../components/Hero/Hero';
 import ImageRwite from '../components/imageRwrite/ImageRwite';
@@ -19,6 +20,7 @@ const Home = () => {
       <Technologies />
       <Timeline />
       <Accomplishments />
+      <Contact/>
     </Layout>
   );
 };

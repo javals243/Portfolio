@@ -7,7 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
+      {/* <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:+1 (123) 456-7890">+243 (995) 868-621</LinkItem>
@@ -18,10 +18,10 @@ const Footer = () => {
             vchihisa@gmail.com
           </LinkItem>
         </LinkColumn>
-      </LinkList>
+      </LinkList> */}
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan> © Valere Chiohisa - 2022</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons target="_blank" href="https://github.com/">
